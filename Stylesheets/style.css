@@ -1,0 +1,55 @@
+fieldset {
+	border: none;
+	float: left;
+	padding: 0px;
+	padding-bottom: 20px;
+
+
+}
+
+#form-wrapper {
+	margin-left: 50px;
+	width: 450px;
+	padding-top:250px;
+	margin:0 auto;
+
+}
+
+body {
+	background-color: skyblue;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+input {
+	height: 20px;
+}
+
+div {
+	font-family: Arial;
+	text-indent: center;
+
+}
+
+.submit-button {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	width: 450px;
+	margin:0 auto;
+	font-size: 15px;
+	height: 40px;
+}
+
+.email {
+
+	padding-right: 30px;
+}
+
+.password {
+	padding-right: 25px;
+}
