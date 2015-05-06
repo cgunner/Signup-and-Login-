@@ -3,53 +3,137 @@ fieldset {
 	float: left;
 	padding: 0px;
 	padding-bottom: 20px;
-
-
 }
 
 #form-wrapper {
-	margin-left: 50px;
+	margin-left: 30px;
 	width: 450px;
-	padding-top:250px;
-	margin:0 auto;
+	padding-top: 25px;
+	padding-bottom: 200px;
+	margin: 0 auto;
+	
+	position:absolute;
+    width:600px;
+    height:200px;
+    z-index:15;
+    top:60%;
+    left:50%;
+    margin:-200px 0 0 -350px;
+
+    padding-left: 100px;
 
 }
 
 body {
 	background-color: skyblue;
+	background-image: url("http://xarafamdesign.com/work/biteme/images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 300px;
+	
 }
 
 h1 {
 	text-align: center;
-	color: white;
+	color: purple;
 	font-size: 40px;
+
+	margin-right: 100px;
 }
 
 input {
-	height: 20px;
+	height: 25px;
+	width: 319px;
+
+	padding-right: 70px;
+  	height: 25px;
+  	width: 250px;
+
+  	padding-left: 30px;
+
+  	font-size: 100%;
 }
 
 div {
 	font-family: Arial;
 	text-indent: center;
+	padding-top: 400px;
 
 }
 
 .submit-button {
-	background-color: black;
-	color: white;
-	padding: 10px;
-	width: 450px;
+	background-color: white;
+	color: red;
+	padding: 1px;
+	width: 500px;
 	margin:0 auto;
-	font-size: 15px;
+	font-size: 20px;
 	height: 40px;
+	border-style: groove;
+	font-weight: bold;
 }
 
 .email {
 
-	padding-right: 30px;
+	padding-right: 95px;
+	height: 25px;
+	color: white;
+
+	background-color: blue;
+	width: 225px;
+	margin-left: 38px;
+
+	font-size: 100%;
 }
 
 .password {
-	padding-right: 25px;
+	padding-right: 95px;
+	height: 25px;
+
+	background-color: blue;
+	width: 225px;
+	margin-left: 4px;
+	
+	font-size: 100%;
+
 }
+
+}
+
+.last-name {
+  padding-right: 40px;
+  height: 35px;
+  width: 250px;
+
+  padding-left: 30px;
+
+  font-size: 100%;
+}
+
+.first-name {
+	padding-right: 70px;
+	height: 25px;
+	width: 250px;
+
+	padding-left: 30px;
+
+	font-size: 100%;
+	
+}
+
+div {
+	background-color: black;
+	
+	
+  	background-color: black;
+ 	border: 1px solid black;
+  	opacity:0.6;
+	
+	
+}
+
+
+
+
+
+
